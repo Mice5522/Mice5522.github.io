@@ -13,25 +13,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
     <style> 
-        body {
-            background-color: #FFC0CB;
-            background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
-        }
-        .navbar {
-            background-color: #6f42c1 !important;
-            background-image: url("https://www.transparenttextures.com/patterns/argyle.png") !important;
-        }
-        /* 修正了 CSS 選擇器，確保所有標題和 text-primary 顏色正確 */
-        h1, h2, h3, h4, .text-primary { 
-            color: #FFFFFF;
-        }
-        .lead {
-            color: #bfc0c0;
-        }
-        .subheading {
-            color: #FFFFFF !important;
-        }
-    </style>
+    body {
+        background-color: #F5F5F5; /* ❄️ 主背景：淡水泥灰 */
+        /* background-image: url("..."); */ 
+    }
+    
+    .navbar {
+        background-color: #003366 !important; /* ❄️ 側邊欄：深海軍藍 */
+        /* background-image: url("..."); */ 
+    }
+    
+    /* 確保文字在淺色背景上能看見 */
+    h1, h2, h3, h4, .text-primary { 
+        color: #333333; /* 標題顏色：深炭灰 */
+    }
+    .lead {
+        color: #555555; /* 內文顏色：較深的灰色 */
+    }
+    .subheading {
+        color: #333333 !important; /* 副標題顏色：深炭灰 */
+    }
+</style>
 </head>
 <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
